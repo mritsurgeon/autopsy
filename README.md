@@ -2,6 +2,8 @@
 
 This script integrates Veeam Backup & Replication with Autopsy, a digital forensics platform, to facilitate forensic investigation of backed up data. It automates the process of restoring the latest restore point from Veeam backup and mounts it for analysis in Autopsy.
 
+This will help with Law Enforcement and Forensics using BackupHhistorical images to collect evidence and report on Incident / Attack
+
 ## Setup
 Before using the script, make sure to set the following variables:
 
