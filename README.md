@@ -19,7 +19,7 @@ autopsy_path = r"C:\Program Files\Autopsy-4.20.0\bin" # Path to Autopsy installa
 triage_folder = r'C:\triage' # Folder where the restored data will be mounted for analysis on local Server & CASE files
 ```
 
-## how it works 
+## How it works 
 1. The script first obtains an access token from the Veeam API using the provided credentials.
 2. It then fetches the latest restore point data from Veeam backup. Please check ths section for more configurables Options
 3. The latest restore point, filtered based on allowed operations, is selected for restoration.
