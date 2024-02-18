@@ -37,4 +37,5 @@ triage_folder = r'C:\triage' # Folder where the restored data will be mounted fo
 - Ensure that Veeam Backup & Replication is properly configured and accessible before running the script.
 - Autopsy must be installed on the system and the path to its executable must be correctly specified.
 
-## Blog
+## Blog Walkthrough
+http://www.mritsurgeon.co.za/2024/02/forensic-analysis-integrating-veeam.html  
