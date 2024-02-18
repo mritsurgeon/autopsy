@@ -28,7 +28,7 @@ triage_folder = r'C:\triage' # Folder where the restored data will be mounted fo
 6. It mounts the restored data on the network path and creates symbolic links in the triage folder.
 7. Finally, it constructs and executes a command to launch Autopsy with the restored data for forensic analysis.
 
-## Usauge 
+## Usage 
 1. Set the required variables at the beginning of the script.
 2. Run the script using Python.
 3. Autopsy will be launched automatically after the restoration process is completed.
@@ -36,3 +36,5 @@ triage_folder = r'C:\triage' # Folder where the restored data will be mounted fo
 ## Note 
 - Ensure that Veeam Backup & Replication is properly configured and accessible before running the script.
 - Autopsy must be installed on the system and the path to its executable must be correctly specified.
+
+## Blog
