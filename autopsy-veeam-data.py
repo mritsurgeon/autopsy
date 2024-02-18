@@ -6,8 +6,8 @@ from tqdm import tqdm
 import time
 
 # Set these variables
-veeam_server = "172.21.234.10"
-mount_server = "172.21.234.10"
+veeam_server = "10.0.0.1"
+mount_server = "10.0.0.2"
 username = f"administrator@{mount_server}"
 password = "Veeam123"
 api_user = "administrator"
@@ -44,6 +44,10 @@ except requests.exceptions.RequestException as e:
 
 # Second API call to fetch restore points data
 restore_points_url = f"https://{veeam_server}:9419/api/v1/objectRestorePoints"
+# Query will find latets RP with "malwareStatusFilter": "infected",
+# Can add Name filter for Query  
+# Filters backup objects by the nameFilter pattern. The pattern can match any backup object parameter. To substitute one or more characters, use the asterisk (*) character at the beginning and/or at the end.
+# Example: "nameFilter" : "Server*",
 
 query = {
     "skip": "0",
