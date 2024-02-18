@@ -1,4 +1,4 @@
-# Veeam Autopsy Integration Script
+# Veeam & Autopsy Integration Script
 
 This script integrates Veeam Backup & Replication with Autopsy, a digital forensics platform, to facilitate forensic investigation of backed up data. It automates the process of restoring the latest restore point from Veeam backup and mounts it for analysis in Autopsy.
 
